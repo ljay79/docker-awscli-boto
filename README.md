@@ -15,8 +15,30 @@ docker pull ljay/awscli-boto:latest
 ## What is installed in this image?
 
 - Python/3.6.5
-- jq/1.5
-- awscli/1.15.59 tool via the pip installer
-- boto3/1.7.58 tool via the pip installer
+- jq/1.5.1
+- awscli/1.18.25 tool via the pip installer
+- boto3/1.12.25 tool via the pip installer
+
+```
+> pip list
+Package         Version
+--------------- -------
+awscli          1.18.25
+boto3           1.12.25
+botocore        1.15.25
+colorama        0.4.3
+docutils        0.15.2
+jmespath        0.9.5
+pip             10.0.1
+pyasn1          0.4.8
+python-dateutil 2.8.1
+PyYAML          5.3.1
+rsa             3.4.2
+s3transfer      0.3.3
+setuptools      39.2.0
+six             1.14.0
+urllib3         1.25.8
+wheel           0.31.1
+```
 
 ## to be continued ...
